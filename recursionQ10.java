@@ -2,10 +2,10 @@ import java.util.Scanner;
 // find the highest number in the given array
 
 public class recursionQ10 {
-    static void findMax(int arr[],int indx){
-        if(indx==arr.length) return;
-        System.out.println(arr[indx]);
-        findMax(arr, indx+1);
+    static int findMax(int arr[],int indx){
+        if(indx==arr.length-1) return arr[indx];
+        return Math.max(arr[indx],findMax(arr, indx+1));
+
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -16,6 +16,7 @@ public class recursionQ10 {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        findMax(arr,0);
+        System.out.println(findMax(arr, 0));
+       
     }
 }
