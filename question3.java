@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class question3 {
-    // find the sum of all number withinn the given range that is divisible by 3 or 5
+    // find the sum of all number withinn the given range that is divisible by 3 or 5 in less timecomplexicity
     public static void main(String[] args) {
        Scanner sc =new Scanner(System.in);
        System.out.println("enter the range");
