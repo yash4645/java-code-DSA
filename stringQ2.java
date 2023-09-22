@@ -23,7 +23,6 @@ public class stringQ2 {
                     // str=str.substring(0,i)+n+str.substring(i+1);
                     str.setCharAt(i,n);
                 }
-
             }
         }
         System.out.println(str);
