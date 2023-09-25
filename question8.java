@@ -1,4 +1,5 @@
 import java.util.Arrays;
+// short the array by the sum of the digits of the element of the array
 
 public class question8 {
     public static void main(String[] args) {
