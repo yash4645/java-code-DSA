@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// find the minimum number of houses to satisfy r*n
 public class question12 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
