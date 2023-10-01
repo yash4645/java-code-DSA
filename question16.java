@@ -1,14 +1,14 @@
-public class question14 {
-    // print x pattern
+public class question16 {
+    // print pyramid
     public static void main(String[] args) {
-        int n=5;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(j==i || j==n-i-1){
+        int num=3;
+        for(int i=0;i<num;i++){
+            for(int j=0;j<2*num-1;j++){
+                if(j>=num-1-i && j>=2*num-1-i){
                     System.out.print("*");
                 }else{
                     System.out.print(" ");
-                }
+                }  
             }
             System.out.println();
         }
