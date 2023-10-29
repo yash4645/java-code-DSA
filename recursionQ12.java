@@ -26,8 +26,8 @@ public class recursionQ12 {
     public static void main(String[] args) {
         // Scanner sc=new Scanner(System.in);
         int [] arr={2,5,3,3,7,4,3,7,2,8,4,3};
-        // findInd(arr,0,3);
-        // System.out.println(findFirst(arr, 0, 456));
+        findInd(arr,0,3);
+        System.out.println(findFirst(arr, 0, 4));
         System.out.println(findLst(arr, 0, 5));
 }
 }
