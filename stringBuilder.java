@@ -14,6 +14,9 @@ public class stringBuilder {
         str.delete(3, 4);
         System.out.println(str);
         System.out.println(str.reverse());
+        String s="radhe";
+        StringBuilder str2=new StringBuilder(s);
+        System.out.println(str2);
        
     }
 
