@@ -5,10 +5,15 @@ public class recursionQ3 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("eneter the number: ");
-        int num=sc.nextInt();
-        System.out.println(findNum(num));
+        Long num=sc.nextLong();
+        if(num>999999999){
+            System.out.println("Abhishek is land");
+        }else{
+            System.out.println(findNum(num));
+
+        }
     }
-    static int findNum(int n){
+    static Long findNum(Long n){
         if(n>=0 && n<=9) return n;
         return findNum(n/10)+n%10;
     }

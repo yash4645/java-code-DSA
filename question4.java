@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class question4 {
-    // automorphic number ,given number is present in the square of that number at last
+    // automorphic number ,given number is present in the square of that number at last eg:- 6
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("enter the number");
