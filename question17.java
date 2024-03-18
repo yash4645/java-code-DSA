@@ -12,9 +12,9 @@ public class question17 {
         if(n==1) return "1";
         if(n==2) return "11";
         String ans="11";
-         for(int i=3;i<n;i++){
+         for(int i=3;i<=n;i++){
             String t="";
-            ans+="&";
+             ans+="&";
             int count=1;
             for(int j=1;j<ans.length();j++){
                 char ch1=ans.charAt(j);

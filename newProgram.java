@@ -8,6 +8,7 @@ public class newProgram {
       String s="";
       int i=0,j=1,k=2;
       while(k<n && i<n && j<n){
+        s+="$";
         if(raw[i]==raw[j]){
           int count=1;
           while(raw[i]!=raw[j]){
