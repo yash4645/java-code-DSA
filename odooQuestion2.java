@@ -49,8 +49,9 @@ public class odooQuestion2 {
 
     public static void main(String[] args) {
         int[] signal1 = {1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20};
+        int [] str2={2,4,6,8,1,2,3,5,9,3,5,5,5,5,5};
 
-        System.out.println(compress(signal1));
+        System.out.println(compress(str2));
     }
 }
 
