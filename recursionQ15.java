@@ -2,7 +2,7 @@ public class recursionQ15 {
     // frog question :- find minimum cost to go from index 0 to last ,frog can jump one or two index only at a time
     // eg :- [20,10,40,30,50]...minimum cost is 20-40-50=30
     public static void main(String[] args) {
-        int[] arr={20,10,20,30,40};
+        int[] arr={20,10,300,10,50};
        int cost= minCostPath(arr,0);
        System.out.println(cost);
     }
