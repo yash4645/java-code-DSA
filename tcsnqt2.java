@@ -2,7 +2,7 @@ import java.util.*;
 public class tcsnqt2 {
     // given one array print the index of first non repeating element
     public static void main(String[] args) {
-        int[] arr={2,4,3,3,5,2,4};
+        int[] arr={2,4,3,7,3,5,2,4};
         HashMap<Integer,Integer> map=new HashMap<>();
         // int ans=0;
 
