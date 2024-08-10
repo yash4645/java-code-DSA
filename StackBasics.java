@@ -38,8 +38,5 @@ public class StackBasics {
         System.out.println(st.contains(23));
         System.out.println(st.set(2, 9));
         System.out.println(st.elementAt(2));
-
-    
-
     }
 }

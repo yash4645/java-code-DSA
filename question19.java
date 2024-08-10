@@ -23,7 +23,5 @@ public class question19 {
         }
         String output=ans.toString();
         System.out.println(output);
-        
-        
     }
 }

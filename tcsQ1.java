@@ -3,7 +3,7 @@ public class tcsQ1 {
     // given two strings s1 and s2 ,calculate the sum of the character occurance of s2 in s1
     public static void main(String[] args) {
         String s1="developer";
-        String s2="deve";
+        String s2="dev";
         int sum=0;
         Map<Character,Integer> map=new HashMap<>();
         for(int i=0;i<s1.length();i++){

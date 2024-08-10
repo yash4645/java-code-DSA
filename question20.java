@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// code to find hcf and lcm of two numbers...
 public class question20 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

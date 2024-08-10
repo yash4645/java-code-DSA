@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 // find the number of charecters that occure more then once in the given string
 public class HashMapQ1 {
@@ -20,7 +21,7 @@ public class HashMapQ1 {
             }
         }
         int count=0;
-        for(var e:hm.entrySet()){
+        for(Map.Entry<Character,Integer> e:hm.entrySet()){
             if(e.getValue()>1){
                 count++;
             }
