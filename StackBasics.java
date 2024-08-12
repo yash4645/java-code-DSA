@@ -40,3 +40,6 @@ public class StackBasics {
         System.out.println(st.elementAt(2));
     }
 }
+
+// sorting use mostly heap but when it needs we are using 2 loop with i and j and in this j is dependent on i in most case we will use stack
+
