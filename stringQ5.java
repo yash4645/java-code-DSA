@@ -20,12 +20,16 @@ public class stringQ5 {
                 ch=ch1;
                 num="";
             }
-            if(num.length()>0){
-            int temp2=Integer.valueOf(num);
-            for(int j=0;j<temp2;j++){
-                ans.append(ch);
-            }
+        //     if(num.length()>0){
+        //     int temp2=Integer.valueOf(num);
+        //     for(int j=0;j<temp2;j++){
+        //         ans.append(ch);
+        //     }
+        // }
         }
+        int temp2=Integer.valueOf(num);
+        for(int j=0;j<temp2;j++){
+            ans.append(ch);
         }
         System.out.println(ans.toString());
     }    
